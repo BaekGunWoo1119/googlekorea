@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 형식의 구글</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html"><img class="logo" src="img/Google_2015_logo.png" alt="이미지로드"></a>
+            <input type="text" id="search" class="search" placeholder = "검색할 내용을 입력하세요.">
+            <a class="sch_btn"><img src="img/pngwing.com.png" alt="검색"></a>
+            <script src="js/search.js"></script>
+        </div>
+        <div class="gnb">
+            <div class="menu"><!-- 메뉴 -->
+                <ul class="left_gnb"><!-- 왼 -->
+                    <li><a href="https://mail.google.com/">G메일</a></li>
+                    <li><a href="https://sites.google.com/">사이트</a></li>
+                    <li><a href="https://classroom.google.com/">클래스룸</a></li>
+                    <li><a href="https://meet.google.com/">Meet</a></li>
+                    <li><a href="https://shopping.google.com/">쇼핑</a></li>
+                    <li><a href="https://store.google.com/kr/product/chromecast">크롬캐스트</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://wikipedia.org">위키백과</a></li>
+                    <li><a href="https://news.google.com/">News</a></li>
+                    <li><a href="https://www.google.com/finance/">금융</a></li>
+                    <li><a href="https://www.google.co.kr/intl/ko/earth/">Earth</a></li>
+                    <li><a href="https://www.google.co.kr/maps/">지도</a></li>
+                    <li><a class="plus" href="#">더보기 👇</a></li>
+                    <!-- 더보기 후 펼쳐지는 메뉴(7/8) -->
+                    <!-- <script src="js/plus_menu.js"></script> -->
+                </ul>
+                <ul class="right_gnb"><!-- 오 -->
+                    <li><a href="#">날씨 정보</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 더보기 후 펼쳐지는 메뉴(7/8)
+            <div class="plus_menu">
+            <ul>
+                <li><a href="#">메뉴2_1</a></li>
+                <li><a href="#">메뉴2_2</a></li>
+                <li><a href="#">메뉴2_3</a></li>
+                <li><a href="#">메뉴2_4</a></li>
+            </ul>
+        </div> -->
+    </header>
+
+    <section>
+        <div id="container">
+            <nav class="left_cont">
+                <img src="img/marketing.jpg" alt="광고">
+                <div class="headline">
+                    <span class="head_left">
+                        <h3>연합뉴스 ></h3>
+                    </span>
+                    <span class="head_right">
+                        뉴스홈 경제 연애
+                    </span>
+                </div>
+                <br>
+                <div class="wrap">
+                    <script src="js/hoverEvent.js"></script>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img src="img/logo_maekyung.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style = "padding: 4px 0 0 0;"src="img/zdnet-korea-vector-logo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style = "width:70%; padding: 6px 0 0 0;" src="img/kbs_world.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img src="img/newsis.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style = "width:70%; padding: 12px 0 0 0;"  src="img/koreaherald.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="padding: 4px 0 0 0;" src="img/mbc.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:70%; padding: 3px 0 0 0;"src="img/연합뉴스TV_로고.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img src="img/sbslogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style = "padding: 4px 0 0 0;" src="img/jtbclogo.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:60%; padding: 6px 0 0 0;" src="img/edailylogo.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img src="img/data_design_OBS.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:40%; padding: 0;" src="img/Channel_A_logo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img src="img/snslogo_20200619011229.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:60%; padding: 17px 0 0 0;"src="img/CBS_News_logo_(2020).svg.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:70%;" src="img/img_kmib_meta.jpg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:80%;" src="img/osenlogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:70%; padding: 12px 0 0 0;"  src="img/moneytodaylogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:70%; padding: 12px 0 0 0;" src="img/Chosun_IIbo_Logo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:55%; padding: 15px 0 0 0;" src="img/YTN_logo_2014.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:55%; padding: 12px 0 0 0;" src="img/etvk40wvpb.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:55%; padding: 12px 0 0 0;" src="img/ariranglogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:55%; padding: 11px 0 0 0;" src="img/seoulnewslogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:40%;" src="img/CNNlogo.png">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <div class="hoverEvt">
+                                <a href="">구독</a>
+                                <a href="">기사 보기</a>
+                            </div>
+                            <img style="width:60%; padding: 13px 0 0 0;" src="img/bbcnews.2.o.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="feed">
+                    <ul class="feed_menu">
+                        <li><a>인기 영상 |</a></li>
+                        <li><a>최신</a></li>
+                        <li><a>음악</a></li>
+                        <li><a>게임</a></li>
+                        <li><a>영화</a></li>
+                    </ul>
+                    <iframe class="video" src="https://www.youtube.com/embed/ytzBGbggb9k"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/X6iKZNkhHys"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/edW5vZ0gwZk"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/QqaXz9awZtQ"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/4k8Xz22s__w"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/LaT7gy2vid8"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/R6qbXa8uTqQ"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/VCHGfy00Uok"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/_Ef8-fz8VeE"></iframe>
+                </div>
+            </nav>
+            <nav class="right_cont">
+                <div class="login">
+                    <div class="login_gtb">
+                        <p>구글을 더 편리하게 이용하세요</p>
+                        <a class="login_btn" href="https://accounts.google.com/ServiceLogin?hl=ko&passive=true">
+                            <img src="img/Google_2015_logo.png" width="17%";> 로그인</a>
+                        <br><br><br><br>
+                        <span class="login_left">
+                            <a>🔒아이디/비밀번호 찾기</a>
+                        </span>
+                        <span class="login_right">
+                            <a>🙍‍♂️회원가입</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="mkt">
+                    <img src="img/marketing 2.jpg" alt="">
+                </div>
+                <div class="mkt">
+                    <a href=""><img style="width:7%;" src="img/google-plus-new-icon-logo.png" alt="">
+                        <span class="trand">트렌드 쇼핑 ></span></a>
+                    <a class="vrt3"> NFT </a>
+                    <a class="vrt2"> 쇼핑몰 </a>
+                    <a class="vrt1 act"> 상품 </a>
+                    <script src="shoppingUI.js"></script>
+                    <div class="shopping">
+                        <div class="shp_name">
+                            <span>AliExpress ·</span>
+                            <span>Amazon ·</span>
+                            <span>Ebay</a>
+                        </div>
+                        <div class="shp_list">
+                                <div class="shop_control">
+                                    <div class="btn_box">
+                                        <a href="#" role="button" class="btn btn_prev">👈</a>
+                                        <a href="#" role="button" class="btn btn_next">👉</a>
+                                    </div>
+                                </div>
+                            
+                                <div class="list_goods_wrap">
+                                    <ul class="list_goods">
+                                        <li class="goods_item" id="goodsItem_4920629" bizcd="TREND_PROD" expstrtrcd="TRPD01" adcntsseq="4920629" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                            <a href="https://adcr.shopping.naver.com/adcr.nhn?x=%2BD6QMEsksNIUHxiz%2BDDPcP%2F%2F%2Fw%3D%3DsCkFko3M9gjJyo1xms5jvoNuci%2FXpGAmxLZC1leqvsjfbIefrJGfOMo8fx%2B40SImVR3OSzhZbv1Uag%2B7UPh4BWWnUQ%2B9MOGzv9GSA2FT8qg8fu0NwgP7k5Fs13YI%2F%2FYQZamnH9I32EXbtZeIkId9U4ew0V71c1x%2Bp2NbtZNHlTbVEiLm0MfOxGqPmyB3JYOuvkhcLMf5EHbb6yOa5I1%2FCq1qDr%2F5wjGVuwWLgrwVtklOqQox0egXT%2F1ALNLpWuHiFchp10zZ6EODQ58zvpqqD4WTZgCLJcgb2IxXic5J0kf5tjCsI4i14imcbD1eNhYd1qpqNxOLx7ACCNsQ7B6pshjIesDFjCDsFE7DhoTRlFs%2BszK4HIG1ECJHDJhd5dU5gTyZw1qD%2Flvw6VGoQJCoxPhrMwKdfSweJEugUd1DDI%2BA%3D&amp;y=sS097oboDoreWLr6ahU6hf%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp280%2B6hUn8j0WBSbrwmrWOdPu%2BbS9ynNLqt0ikS7%2Fh5dnVnLLa%2BCmITFtSYxm9sIU2XhHwBaww%2BxS6oFK%2F5oWfCsTfmeyTYKzc6%2FkIp20GdQU6f3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdTbswPfcXIWxzOVUMhihelg%2FXafcbrxV7XGKndUACqcC6fnSkwAaljI%2Fk4iiFVwn8HAHlANAsMIyezG1MuOnu1%2FLhJ3IZLbU2sgJN%2FCoLqmJ8h%2FaphFdKsZw1H7fLonUbKHl28iFf34gIY2l%2B3WUxzAP2qeEXNP98aJjGhPXFPQwCKdeTr9rTLEfoswX6hT3F8xH0bjCRvGtONfdm4L4trn7BnTCVxfeDoJQOw53e2GbUKRoinaNE8R41aghjcWLzcGo1UU488VaerdkzY5jh1HRUc8PRsBrr0L7New8PvZTBWFoY%2BXyRfmBkSnlQeVzFDRxz31mT9q0n3PxC8ghCx1I4sDhn6a6NczSaEOUhjymqSPuP5TWmQ5cYJLIRRgwqj4U5ZvBzH0FrrCOuVmBkan1ldC3LZpBIU1AZQ7TnlTcNsxlGLjGIxpRQROtO3UlZ%2BII5uDeZT4Bfpay2ONC5MDxyk2WnpO8e1WucY1uB77s%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.topitem', 4920629, 1);">
+                                                <div class="thumb_box">
+                                                    <img src="https://s.pstatic.net/shopping.phinf/20220706_20/6334de2a-1084-422c-b55e-8bdc2fa73a12.jpg?type=f214_292" width="107" height="146" alt=""><span class="thumb_bd"></span>
+                                                </div>
+                                                <p class="title_box">
+                                                    <span class="title">눕자마자</span>
+                                                    <span class="title">잠이 솔솔~</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="goods_item" id="goodsItem_4928800" bizcd="TREND_PROD" expstrtrcd="TRPD01" adcntsseq="4928800" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                            <a href="https://adcr.shopping.naver.com/adcr.nhn?x=iI%2FMBjgE6eUGB%2FOmL%2FLajP%2F%2F%2Fw%3D%3Ds%2FYjkYXxWzFLV3vtu3zgCoT3ChSA%2F1At%2BjILEsygdsqAhWftrJ82uNddla4Px0nQ1TELQvXIbKihpJONH69xwnrp3HJEWlo86XKSa7dXZj%2BbDm89jhPcNAEcpqXgSwlKrOc3xP2BwcBsJkzZvbkzfMPVO0cnAJ7Vc0LdOaW5mkT012dOnYVoU8yYieUbQ8RUm3MK2kPf1o3vzv7GmK3AxB04CAF0p0gwBvii2sFA426tpUDnjO%2Bn8KoH7YGkl%2FstgeM5X5P2JN1X89WuqMnKg3vQ7YsgUSvF6IcuRhf%2FDA7JktRxv%2FNKCUA9QLCXPFEj%2BqlsHMjUuPO2fq8J9JsXoJanSwk8rI%2BpZXCikiCgpIBTPL2I0ZPICiC2P3afexhCVFKbOW1EjwG2c5jGCIl%2FSj9Mi5GXX%2FftbAyDCQfRLCGnw3on0mJnksL0IsdXfpWj0&amp;y=DG3zvb9MjCU5aJZAM0qeZ%2F%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp280u7cle3dZDHstckcnYZm9PpyimLQR8eyAs2wfp1wr8AXLLa%2BCmITFtSYxm9sIU2Xh3AMymTTwSr%2Bl0mU%2FK%2Bht%2BfmeyTYKzc6%2FkIp20GdQU6f3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNqcGcOw7v8VoVGquMmx7yRkl1WqbOiW8mvPFIU6S1ndZIRvhefnF1tgztBSZBXSODk3y6WztEYgDKqNBOBrRbZ0ktjXSH00MtGV0JbobpJsplus%2BSHTc4%2BVKm10mCXXgD1GNs4%2BjqORyegSXFs%2BWAxkFSyJXTynZ3NHxAzrYepVdopIIACpwyzAsaE9y4OMskqI%2F0iyMf4Yuk1phlXvBfKaaPSfr%2BQ0pakLz0HY1WZ2esa0BTbfPq%2FwsP63jTVPsVtfhRCo975n5w3O3TzbNEtldWFfH3X4nImHeJ49tZq34C7V67rfH3iNtVAxlGmuIMyjyhKEmHPq1UKN99UoCnwsYPDVWBtwNxPNBDdueevK0Gzz25W%2F95gS8%2FUjvNAuaBkw3gDSQKxKrmb5qCX6qlKoda5GK4Pc3VJgyR1ptSQpmXz8oc27K260mwSVka6cKPz5WaeMr%2Bd2k07F1IHg1lnI%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.topitem', 4928800, 2);">
+                                                <div class="thumb_box">
+                                                    <img src="https://s.pstatic.net/shopping.phinf/20220623_18/0fba13e8-208f-4fb7-a473-0196026cfdeb.jpg?type=f214_292" width="107" height="146" alt=""><span class="thumb_bd"></span>
+                                                </div>
+                                                <p class="title_box">
+                                                    <span class="title">반응 너무 좋아요</span>
+                                                    <span class="title">특가5부SET 6,900</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="goods_item" id="goodsItem_4924825" bizcd="TREND_PROD" expstrtrcd="TRPD01" adcntsseq="4924825" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=uWsq3eqLxSb%2B%2FJ%2B4wowEcP%2F%2F%2Fw%3D%3DsUECJv4YQ1NBfFA7p68r2A4fLxyufzq1gMqdJzMafoenYzXYezS4kWZK8TsGRmCm913lvo4Wr%2BcvyjkGDVtGvG7p3HJEWlo86XKSa7dXZj%2BbDm89jhPcNAEcpqXgSwlKrOc3xP2BwcBsJkzZvbkzfMPVO0cnAJ7Vc0LdOaW5mkT2tPLzbhEtUWUx4c4fZTqmlS6VEcRe4FHngdjhn4W82ArqoiVHWUGPQex%2FqU5QxPU3FUSeYLOrnwNUkksl4JwJNwiGYlHSKE8zWOLg4yfukxic2h53STocCoqlpYLGchv6WRrdhGX1l1LfIus%2FWpAN83YKse1iHztlJiEmoStVt9ENt%2BH8aTqdbB2PKIYVxmCdYmKIpjQIPBttO0imYHSr5chp10zZ6EODQ58zvpqqD4WTZgCLJcgb2IxXic5J0kf5tjCsI4i14imcbD1eNhYd1qpqNxOLx7ACCNsQ7B6pshjIesDFjCDsFE7DhoTRlFs%2BH11WtBZFfuvf4Ci6KIndnH57gOXEgozDENCrgUouKtx1XWq37ch%2FA269tyBXg7wQ%3D&amp;y=7sXEiAIpQE7QTIN6w%2B%2BOa%2F%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp2831jW7DrBhaGLFBuZ2BRFghKSE4z1nSS6H35%2BF8OG94PXLLa%2BCmITFtSYxm9sIU2Xj8DVUVKqD8t29XjBwIZKHLfmeyTYKzc6%2FkIp20GdQU6f3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNvqnhqwwtmQPZDyyufNrfv9vBxxdc3AKp5O6oydVuLKG0T0wvLR%2FYhN3Z125BWUEruxxChvYSrTDdMKajVc3kD7A%2FacH%2FxVrElczISzQ9BKuSDQUaHUqQh96AqT5YDs1SlgOjErFpyX0PlNXl9nMaiAFSyJXTynZ3NHxAzrYepVdiTMTyU%2F7ttYcU7C3wGiO92WDftNud1r2oOf3CebzV6W%2FEdHmX3j%2FpZ8FxkxznK9lsa0BTbfPq%2FwsP63jTVPsVttwxcTnJYAacIIowv9wK3NdWFfH3X4nImHeJ49tZq34C7V67rfH3iNtVAxlGmuIMyjyhKEmHPq1UKN99UoCnwsYPDVWBtwNxPNBDdueevK0Gzz25W%2F95gS8%2FUjvNAuaBkw3gDSQKxKrmb5qCX6qlKoda5GK4Pc3VJgyR1ptSQpmXz8oc27K260mwSVka6cKPz5WaeMr%2Bd2k07F1IHg1lnI%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.topitem', 4924825, 3);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220704_23/42fe4252-035d-4848-a28a-72fac9c67d81.jpg?type=f214_292" width="107" height="146" alt=""><span class="thumb_bd"></span>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">에어컨 없이도</span>
+                                                        <span class="title">밤새시원하게자요</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4924125" bizcd="TREND_PROD" expstrtrcd="TRPD02" adcntsseq="4924125" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=YQzxRaqKD%2BuZUXMK61LpRf%2F%2F%2Fw%3D%3DsM0RHGl19iOsek3PZow4KaXpz5m1KCmX418yHXulTbyxPoq25uab8HqLLHteT2EtqGhIcOW3VRMM%2FM95OEmWwnpRgSeUZiUYzmqls5KV4799FO8iNVrgRXpXd3egMQncv93t50czeb57JYW7y%2BK8fd5DUNqlnreWu8OuJTEbqcyeq0nzaTuWpK%2BtQ7Qq7Z3s%2BW8iH82A5w5Xyle5cCT84nrwEUyCNP9LBHqo9C%2Bw6ZPaAgSzj1MPFDVmOoc1zTcy8SKfxNKojUDcRVQKfCFL3vSQPcxdLQtqWa4ctE3oWtI3eiGPDnUA2jJ1ONYtEt6CQIKGUipblzZJPqsdGpxXGI%2BxVOASzCII2fGnIIpMR2svu%2F%2B2XYa9MjSEEVFcpO6mMAAlhjtSGH%2BKLhNbDAav47PteXluSkj5sDcBWYdhcBz74lUTGpBjzlRO9EC5hWxnCF0L%2BS4xJCZXe55Tk6gAo2Q%3D%3D&amp;y=kWbphKDdoSvHEl565HWWA%2F%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp283UMyk4Da760k524r%2Fqc1R53LnvE8OOnwQY7EVs6l6zKHLLa%2BCmITFtSYxm9sIU2Xj0DInWXCiV9U6o4OvIJC63ZlPTKMj0A2%2FagaYXunLRQP3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNjvYOLV0CM%2FOqE%2FlAw1TBdWvtYOW5Q6Fqo7R%2F8MHcuJrqG6cEIZwVTVchQngKFZIGwm0kyEUvbinhqOB%2Br1FEHJm%2FxGCjPz30e%2FnRSfpUaR%2FFe2IqabS9vChKOGWm6Id3SwGlCxfoNtocH3qnjJPslD%2B%2BRCA%2B5jzrQ0JA7Svr6zCCgXDUzdHf3Kde9EpaUj7y02%2FiBRpJDtwyzHRV1IgFLZHVT7SLF5MvEUoCJI66fxElax01JjVgfC%2F8nr3jgFZuY2g2pqQeL1IFum6uGG%2BUimIEGgl97nXR9e3Jh9Tn4xrsLjSEdDqCqIKrnTsjFlvbadCfPFTeyD6pEcknn17gjZWO6Qg%2FhkoZnpmN57zCC3jaoEyGJc%2BF2vM7KQjZRV5doffRK5NJkp68akzzrZC5Ykvt1YJg3iorkvNyAt%2BRoSwzovdFgQsh7rM0FdA3Cm%2Fryt8%2BHBlVogyOnnQJXAANGM%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.miditem', 4924125, 4);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220707_18/392766e6-8b3e-4ae9-ac07-acd8f0d2a335.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">시원한~타임SALE~</span>
+                                                        <span class="title">실시간 BEST체크!</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4913733" bizcd="TREND_PROD" expstrtrcd="TRPD02" adcntsseq="4913733" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=3ILzO%2BRfVWnBYcZ%2BNvnpcv%2F%2F%2Fw%3D%3Ds3lEyAqkcoDJgkAybsUyXim3JX%2B6p%2BxKfVXqx9yvjVVQ0NptKHye7q6oDGBKwyYuayce4Wq%2BdMUFar3KHVtzEObcEkkUGeQVxHqJI9WRnh9ZTMKex48kuCNkOBQ8FDfelSaWNXIP9I2bPKhYcR1rSc3fixBLEtEfBXOdlpyAmwL5ykCVsOJfWDl%2BS5VX1v4BiRoJuVwqVgLNblHY78o%2FcJvzRz1b%2B33N6zdS7Tsi39rFh28MXF0UG9DJZ8SFUap6GH9RYM2yeD8%2BpuqH4MaA%2FqrvRsD9Mk%2BrumjQj5N%2F0AYa%2F04cdKbAoTJdPALaY01tzPGCFzIr4M5zcYjq2ALJ0UMJ9p8ibG0BvXqUU8Fta3eJlTqqrLmn7IgS8oMlRPBa8kcNnL6tFHgIXurTLZYMF7KCWwqQojyza7BFH7RdhSPgfi3gZDqZCAyIFSclJzhUTYN1qMzIMcG4xNyQIDSFuGCQCqgBEDGVvaqEeo5GmgDxRco1OndmlXEyO7nEZeXYtHd8gEw9lzl%2BRKFP4AUtntN8G22KwLWMVl8gX8z1z7VnkbRSfNsVaKCYOOGP0a7IvCmStx0OIrf4uLibh8eHFC%2FFpJynLHg9kHH2YZ3wz6cA7TSAymvKdC%2BEP9baDk2x4fefUbAGRX2C8O2utvedmbw%3D%3D&amp;y=omrXabDlqXSXK6MysOawaf%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp280yzaghJd30KXJ5%2BKrnUnLv5rA%2FJ%2FzxE%2BM%2B6Rxh%2B5gi1HLLa%2BCmITFtSYxm9sIU2Xh5vUy1QunTqJyxuzD0170SZlPTKMj0A2%2FagaYXunLRQP3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNizV8BkSAH%2BzLedPtdpYdgiB6U6sV7nyOfPdhmkA%2B9eJT2WBeB3GyEQ5vaLMHVJDRAm0kyEUvbinhqOB%2Br1FEHKZIZ%2B6wazmyLXGvq4VDhHM7b55fkb3X3LoSj2ZaV2%2BJGzDzoxUTq%2BVq%2B9g7fjsCpj6kEEKkoiOm0ZxJaVQflyNJT3dc%2FBmGS%2B6wGZak0h%2BaHbPAbk5lRn74gdbSFDAT%2BvIOTydeqWSYL4CmS4tkW9a5OLWOOpLLMMrEPaezkkk1n5FRTbaeK7LBD4wO1RGMGI5H8cM5P1e%2F5QZ8DOgJ1t21S2%2F8DDBJozM%2BIUdZXMaqfAc1WC3EyDDx2D82aVX%2BEKNQ7gDTwILlGfLq1RcU%2BKsVEWDsmqqipuNIaNJ8gOxkovfQT%2BPl2M4r%2FDOTY9KTzidUenwC2fXOmyJFu5I1qb1%2FRreb8sOGwYmvYiovHxkHjTXEboRW9STbBhASJnpKbVgrqMNythU%2F2q8j19%2FsGZ7" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.miditem', 4913733, 5);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220609_14/41fef227-e580-4148-b42a-2d49809c7cd4.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">쟁여두고 먹는</span>
+                                                        <span class="title">식단관리 치트키</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4926958" bizcd="TREND_PROD" expstrtrcd="TRPD02" adcntsseq="4926958" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=rTPLcSSy4dGm9E3lER4Z8f%2F%2F%2Fw%3D%3DsuXXjA5U%2FPFkJEP0rJ5Yq%2BydCOjItji7ptPE%2FXh6uiuG2pcWbSK4Y9LixQzVyTjgZ3pAhqc9l8k9QlvzLiFpWcbcEkkUGeQVxHqJI9WRnh9ZTMKex48kuCNkOBQ8FDfelSaWNXIP9I2bPKhYcR1rSc3fixBLEtEfBXOdlpyAmwL7JZLjKnIOmDaEAMugQyIVttY7zl3hWbzR1FfeS1FBZKdg2SFvO%2Ba474gK1phJaArAmIgV9mEHiEZWBnfb8H3GD9DtiyBRK8Xohy5GF%2F8MDsmS1HG%2F80oJQD1AsJc8USP6qWwcyNS487Z%2Brwn0mxeglqdLCTysj6llcKKSIKCkgFM8vYjRk8gKILY%2Fdp97GEJVs05%2BdyMYerqoyooq9zqZIu%2Fcjh%2Fsf44g8ZMyByRfYYoIxxqOacu5vcERO1HPt19s%3D&amp;y=lxk3pocFWiNW7woYQ0zzEf%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp2813R3gn%2F6F2oFXYn1HZ3npzROnSgFUCAouUoKooIztvAnLLa%2BCmITFtSYxm9sIU2XhMzzoZ0fqW4y7CsNh5HsKgZlPTKMj0A2%2FagaYXunLRQP3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdRfT3OA48qGbOPV5lXGlmkvqnhqwwtmQPZDyyufNrfv95vSeK%2BZIKaP3s4lvyFAnBBtOReE79XLGLrAlm15ZJ6hwB5QDQLDCMnsxtTLjp7tcdXng6FCcHxOGIMjfXHjw6ketYbWdxv%2Fvysj4oaoE3UtX7xmmekmeFasB1UPKEd0rRFhAw1th%2BIVdOsb7Cm2KckgLvk4v5GFCD6N87CYpnOxZHRzGNuahf%2BYu88EyvpRRqNHB2kfbEveN0qtLCJtWFdfrSbpFAcubK%2F2m6oVNbWUuRcRmw%2Fu%2BQT2IhAwXl6BjRTKSotiEdwQS0Gu6eOWK4mZWbUBHKd0593KbB9MfV%2F1ztifN%2FUiGhpAujsSre1J8u5RyEvIuXrk3TWPlZdl9GFzds50J0xszI%2FFKhF1yXsS0tXAJkjaf0IjvG1pQvZDx2LK7nFnEPGaymqXT3OJgAPqrP%2FmZvSBC4wBdnorygxuTsdZondMcAhK2VM3yORHp8wec5L4%2BRw4OJCdLRSly6" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.miditem', 4926958, 6);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220608_1/6b725c2f-7c60-4876-86fe-2df414fa4db0.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">많이들 쓰던데</span>
+                                                        <span class="title">나만 몰랐나 봐 !</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4890947" bizcd="TREND_PROD" expstrtrcd="TRPD03" adcntsseq="4890947" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://bagstay.co.kr/product/detail.html?product_no=18229&https://bagstay.co.kr/?cafe_mkt=ue_googleGDN&gclid=CjwKCAjwiJqWBhBdEiwAtESPaNImV6TaN0aOFdkm1wMcKv-s3TpKQtgSKT-yMHeXna6oqnCUX4gJSBoCslkQAvD_BwE#enp_mbris" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem', 4890947, 7);">
+                                                    <div class="thumb_box">
+                                                        <img src="img/watch.jpg" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">고품격 시계</span>
+                                                        <span class="title">60% OFF</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4924488" bizcd="TREND_PROD" expstrtrcd="TRPD03" adcntsseq="4924488" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=q1v%2FPKaQxFqTtT9deVE%2Bbf%2F%2F%2Fw%3D%3DsYO8bs%2FclmTwuRBRag0GLFgThJf0jDr0Z0NIBeg2a%2Bex3TeLeD7C%2B6jB%2FVJdamOjX696H4qTCNUOc%2F7GPjPS99tSSLJimGeRH3IDIjq95QH9WjIWunxbM%2FUrV8Tn07Pp8nhb63Gzn0pOybWD2N3tD%2F4yDGpphKsHs8jfnOLgYNR5TD2JfSlhFrMRCoitKa%2B1oN3M8RqSi4ij%2Bsp9BSEKbZUK0XCOgCgS9MMOLkAywCBcX0qCY4%2B7v5QpmvV4FiAF1nusItOOSBbJ5CEqJqrl4ela5NUHPX%2B34R36pPmO6t6wcf0qPpzq3Eb0wyjcksc%2BR2i1T3O0x%2FP5Fs%2Fmd%2BKyyj%2FDxba6bwq%2FB7WFi%2BH4IRzRO6UjuXKqPAsLLDsZ6uA5b6ijz7vHZRYqtwuNqR%2FT%2FrgB7lOvIVG95mL1jD%2Fb4OpE0v4alzNZuiXMgjs9Gt1qY&amp;y=P7hJmyGgT%2FGYahWCBBXkPf%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp282jWGAhPPxcPDEy1kcZvEJuUsDgm6miE0u%2FUgSjaIrGXe5Z%2Fz95sFHt9JCaEV%2FlQxkT6mr4YG4dQEfxDgv%2FJrDu7a49SQzoN0kcq6P9004ivv3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNjvYOLV0CM%2FOqE%2FlAw1TBdUqSCKoqFHbaNDxs3RMrr88Dp%2B7T81XHnf0%2FKYWVVn%2B7gm0kyEUvbinhqOB%2Br1FEHIPFqcAWu1njWPwOhKsTN8sFe2IqabS9vChKOGWm6Id3SwGlCxfoNtocH3qnjJPslD%2B%2BRCA%2B5jzrQ0JA7Svr6zCBCiM70NAaSxJN%2B%2BJ8TJtbr0CAK9KSnsv%2FG8CM7za4dpHVT7SLF5MvEUoCJI66fxElax01JjVgfC%2F8nr3jgFZuY2g2pqQeL1IFum6uGG%2BUimIEGgl97nXR9e3Jh9Tn4xrsLjSEdDqCqIKrnTsjFlvbadCfPFTeyD6pEcknn17gjZWO6Qg%2FhkoZnpmN57zCC3jaoEyGJc%2BF2vM7KQjZRV5doffRK5NJkp68akzzrZC5Ykvt1YJg3iorkvNyAt%2BRoSwzovdFgQsh7rM0FdA3Cm%2Fryt8%2BHBlVogyOnnQJXAANGM%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem', 4924488, 8);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220707_22/7c4441fb-22d3-4f2d-afe3-64c3634dadcb.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">고퀄리티~NEW신상</span>
+                                                        <span class="title">트렌디한 아웃핏!</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4929063" bizcd="TREND_PROD" expstrtrcd="TRPD03" adcntsseq="4929063" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=a4%2BdZF6zoq%2B%2BfWG8%2FOkMev%2F%2F%2Fw%3D%3Ds2TSy%2FN0XCk74Z7ZRLj8817UWZmJ147WBZFypFtqazQS0QDgdCZv4i9AYGNqTsep4jv5BrHm64AVyH%2BRmixPFXFMqYqYImNT0IN9aPThRVal%2B352%2BJsECEM%2BwSP00sr%2F2YjO4QDrPm9cpzpUVdLJt%2B24JvDXAQBgmn1PNpXqEBi8FiPndkqPD3UteM7CP2Y%2BYOJx0DXKmPrLSAs6aqY%2FuKz52CCFL0p%2FSuUPMdXmFxQNp9oTESylZI5zpVphaHCfprOGOqPMESHYXkYSNrtVsVla5NUHPX%2B34R36pPmO6t6wcf0qPpzq3Eb0wyjcksc%2BR2i1T3O0x%2FP5Fs%2Fmd%2BKyyj%2FDxba6bwq%2FB7WFi%2BH4IRzRO6UjuXKqPAsLLDsZ6uA5b3cG6QfafW4mMENrf%2FB8IyuKLaPX4IguYAfZQjhZv1ZQ7p7jPeG1xCiqNLAhwHKbb&amp;y=5ULHHfTdMjHyHAFEvnowAv%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp280bIUL%2FDHhvnx1JbzsxynONh5dXlkILBk34mwKt%2BClqKe5Z%2Fz95sFHt9JCaEV%2FlQxkFVdM2qihNRd0MXvH217fJ7a49SQzoN0kcq6P9004ivv3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNt9pxHv%2FvTjL5UGGwVWut%2BfNDSlF6HVDAmWbCWVH0QaqHYc87uZDRyYWbE5zkDJQxQm0kyEUvbinhqOB%2Br1FEHKKaUSWU4CfbYf6pQsdm8bqXP6iFfhVy0WXmEKBGYsUOICy2wjMcB3QHNfVCKkm5336Kvk9UreHFw8a7a8qpQfF5uS%2FA25CrJau2kZR1IVyt8SHxVfVk4TgmVX0JF%2BH8XPiteDHb3MdS%2BZCO3Z8zbjCm9IlyOotDBPj0N4YNYQ124LVUCg7Jzr1nGQpM028IAbo15EexNfLD84qYaKUAAo0q8BgUXkx2QwdSgeUpurqi4XxNEopztPrUgHgoinnlBKtyy40vrs5LwBcKSO9bR22f7fSQ6PjoBCWLuGnm3faUVQR2GQh1xydXK37PZPRZ%2BQAgltd4TFEgUVGbv8%2BUxq%2Fms6e1V12L4xBmNFaJp8jYiEAFzWo0nrEfFxiH0JpFQ6bVktbD4XnHxYf4ABq9Bam" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem', 4929063, 9);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220707_20/00b197b3-5b85-4213-9447-efae4851fed6.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">비오는날 필수품</span>
+                                                        <span class="title">쓱쓱~ 뿌려요</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4930832" bizcd="TREND_PROD" expstrtrcd="000710" adcntsseq="4930832" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=niLOM9oQpp2%2FlTQQPNn2DP%2F%2F%2Fw%3D%3Ds8UqiVeysredRotwIGhRZjcWBs0GxDslH3lUTnPMB4NkV7vDEDyhgqBQ8mJo3p8l9B79j59pv8sbAo%2BJk2cvy0maOtAKaY%2FuTr1CLR5VNubof64QbuF3eJBx6HgsI28pcRE7jwBR7B75I5zw0Y8qsyI6nEHDsmDu1bd0hjRXtTiM%2FF93wClAFI%2BJZJ5gFhG13ZHpBvyc7KNOkeg7qHyYsCyqlOTC6e6r100rXHmdDuN8kD3MXS0LalmuHLRN6FrSN3ohjw51ANoydTjWLRLegkCChlIqW5c2ST6rHRqcVxiPsVTgEswiCNnxpyCKTEdrL7v%2Ftl2GvTI0hBFRXKTupjH8yFQ5sDYCEvBn2jl%2FuNEbXOIIQ5FJwxtghQv4dZKbn2WzJF0xw%2FSoaJbrzQjmIhBdC%2FkuMSQmV3ueU5OoAKNk%3D&amp;y=zaMnbq5rPeYJQX6BLH5Ouv%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp282OSM1TdEpuKbW3FZTm0qezIvA2V3agcb964Ba5km3XhXLLa%2BCmITFtSYxm9sIU2XiogE0xN8QUyxeGIt%2BNeDIhNBOp495V%2F2bkOu2wYxRgN%2F3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdrZwZEKhrZXni8ubJWRtsNgakAsybR6l019ta1LIIuYH8X3taQHhnna9bLBJWj6h2wCHqYa5dtKhMyDCSQS4tBAm0kyEUvbinhqOB%2Br1FEHL9uO8hcAXC%2BjfV1Srwa5Z0Fe2IqabS9vChKOGWm6Id3SwGlCxfoNtocH3qnjJPslD%2B%2BRCA%2B5jzrQ0JA7Svr6zCb8aMC18t3WOOf0c8tw1udubd8s4v%2FpTzF5xvq9gEV%2FlHVT7SLF5MvEUoCJI66fxElax01JjVgfC%2F8nr3jgFZuY2g2pqQeL1IFum6uGG%2BUimIEGgl97nXR9e3Jh9Tn4xrsLjSEdDqCqIKrnTsjFlvbadCfPFTeyD6pEcknn17gjZWO6Qg%2FhkoZnpmN57zCC3jaoEyGJc%2BF2vM7KQjZRV5doffRK5NJkp68akzzrZC5Ykvt1YJg3iorkvNyAt%2BRoSwzovdFgQsh7rM0FdA3Cm%2Fryt8%2BHBlVogyOnnQJXAANGM%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem2', 4930832, 10);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20210706_14/1a607246-5b70-4490-8e06-0173d3993047.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">독보적인 예쁨</span>
+                                                        <span class="title">단독제작~SALE</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4923799" bizcd="TREND_PROD" expstrtrcd="000710" adcntsseq="4923799" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="http://itempage3.auction.co.kr/DetailView.aspx?itemno=B898034243" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem2', 4923799, 11);">
+                                                    <div class="thumb_box">
+                                                        <img src="img/camping.jpg" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">캠핑장비 SALE</span>
+                                                        <span class="title">침낭 1+1</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        <li class="goods_item" id="goodsItem_4929075" bizcd="TREND_PROD" expstrtrcd="000710" adcntsseq="4929075" cntstpcd="K54001" inflowcd="sbtp" expspage="1" exposure="true">
+                                                <a href="https://adcr.shopping.naver.com/adcr.nhn?x=U3%2B4O8TeEkXozc9yz41Uaf%2F%2F%2Fw%3D%3Dst7xWb25kS4L1oyPs7mnB%2BYobYuyNJlNGOyY%2Fzpz082mmQ2ANlPUMSahuv1Hb5klwWbUezTpyq1Ey5rn%2FFW6qlmaOtAKaY%2FuTr1CLR5VNubof64QbuF3eJBx6HgsI28pcRE7jwBR7B75I5zw0Y8qsyI6nEHDsmDu1bd0hjRXtTiOGveDiaJUTW1uIk6IMhxwhz%2BFoiDe6nygDDO2k%2Bcvdvw0JAKeDMymqtUnFw2eZgDRLL2x%2BeT%2BNkilzKfFsQosJ6D0kS%2BQ1K%2Fa4NbydIn0gnvQ18I2icNmcZOlUBwxhJQfNbMnq4h4EbGREbYDYWtsZGa0dxRnpcKXsP9Kr7rwhXO1uQvg1cYcAB23sjj9WuHXIPVAHMZrepj5j1EBYY1LCCGV6rTnMllK72FVLvnBo6mHh3KOtsJCzckC6oFkFfYXxbQQ%2FyxZmZMa6uyV1W3bs%2FcfELRHHwTBocVJd9dhkrFQ3FrTOPBH1hjHlU1esJvwucsEdSzIlLZLBmZlMlLk%2F8MhdnynWKhehWH3zSddMOQ%3D%3D&amp;y=%2FgpsssF6nWN0ias9oDvgqP%2F%2F%2Fw%3D%3Dsfu%2FtfZ7ZTA1V4a0bati0cEa3cUU8CMbq4YAmMl6N6uDOLue3y0%2B0fDtM6XDcwaQbnww4yDhWM5U5M5EV6iLkjkGDYwmkaeoYKdQfWeRp281%2B89oLWg1hyFfq%2F41ouOX%2Fm6l36o5TWIy0R5rF4dWVsXLLa%2BCmITFtSYxm9sIU2XhhCSL7qh9bC2745srTMZTUNBOp495V%2F2bkOu2wYxRgN%2F3UW9BRrWEWqmQnQpIsAEhZfo3HlGHVd9TWAJK8pVxAd1TJNRjwSGhvbc2%2BrcXKrlYVi%2Boz2ESskV%2FRTz3zanyauU5lT7fBoGrnJ7cUMAQdHO%2BQ8avN%2Bz37TVaIehOxsp33dPGf08BhysulzRuwBt1cieNzvuz%2FbgLzTjiS0DHbTe63FINq6oFXcORWuKKetDBqcJwT18A7BwV30kVK3yHIQvEIyEafVulPcibHdxitG1tmDZOVGNH8MYzg6RKYX%2FIKVW2%2Fjm%2FlSfEqeNxyQ%2BgZlhEZytoDJXN8ar9%2FGGi7TdQ4%2BSI9M3cq%2BGHRFxiQetqHYJgS32umVkiBMn6Xiujae3Dt0y4MvhNQN6z9HKHkSSOwNQX%2FS8ntFp6AK91QyPsF0LwnAcobOSxFtalDyjKqmmW0RC6nn446FBY3Ax9S1CHOYgB17fGkMytGAGudpsocUYZhCZe3uZj6cLGmeZAH3EWtY7fU9zG9lV1lKFluRh9SWXDbK8a4CLo%2Bb%2FMMYBbBRsYp22UJF0hElRhZ%2BkYrmWXl7Y84NWXg8h%2BKHDjcs6RpxgNwDhrOjFGJ8LZtYqVpdmC3EH9kX7xKRfO2M%2FQ%3D" class="goods_area" target="_blank" onclick="sbData.focusBlur(), nclk_v2(event, 'gds.botitem2', 4929075, 12);">
+                                                    <div class="thumb_box">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20220708_23/0858c9cf-9c5b-4c85-8168-d735e65d9c16.jpg?type=f214_292" width="107" height="146" alt=""><div class="thumb_bd"></div>
+                                                    </div>
+                                                    <p class="title_box">
+                                                        <span class="title">쫀득달콤함에반해</span>
+                                                        <span class="title">1+1에 무배까지~</span>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <aside class="side">
+                <button id="btn1" class="dark">다크 모드로 보기</button>
+                <script src="js/darkmode.js"></script>
+                <button id="btn2" class="dark" 
+                 style="width: 60px; border-radius: 60px; font-size: 18px;">☝</button>
+                <script src="js/scrollover.js"></script>
+        </aside>
+    </section>
+</body>
+</html>

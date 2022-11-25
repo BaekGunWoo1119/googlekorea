@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'CBNUJIKJI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/CBNUJIKJI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    padding: 2% 10% 2% 10%;
+    display: block;
+    height: 70px;
+}
+
+.header .logo {
+    position: relative;
+    width: calc(10% + 70px);
+    padding: 0 3% 1% 0;
+    display: inline;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+.header .search{
+    width: 55%;
+    margin: 1% 0 0 0;
+    padding: 1.5% 0 1.5% 2%;
+    height: 50px;
+    font-size: 90% auto;
+    line-height: 40px;
+    max-height: 25%; 
+    display: inline;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 1px 1px 3px gray ;
+}
+
+.header .sch_btn {
+    display: block;
+    width : calc(2% + 8px);
+    position: absolute;
+    top : calc(9% + 40px);
+    right : calc(30% + 30px);
+}
+
+.header .sch_btn img {
+    width : 100%;
+}
+
+
+.gnb {
+    padding: 0 10% 0 10%;
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.menu {
+    overflow: hidden;
+    width: 100%;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.menu .left_gnb {
+    float: left;
+    text-align: center;
+}
+
+.menu .right_gnb {
+    float: right;
+}
+
+.menu > ul > li {
+    display: inline;
+}
+
+.menu > ul > li > a{
+    display: inline-block;
+    color: black;
+    font-size: 80%;
+    font-weight: 900;
+    text-decoration: none;
+    width: 75px;
+    height: 50px;
+}
+
+.side {
+    position: fixed;
+    z-index: 5;
+    right: 5%;
+    bottom: 3%;
+}
+
+.side ul li a {
+    display: block;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.side .dark {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 251, 246);
+    border: none;
+    font-family: 'CBNUJIKJI';
+    color: black;
+    box-shadow: 1px 1px 10px rgb(172, 169, 165);
+}
+
+.side .dark:hover {
+    background-color: gray;
+    color: white;
+}
+
+.side .white {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+    font-family: 'CBNUJIKJI';
+    color: white;
+    box-shadow: 1px 1px 10px rgb(172, 169, 165);
+}
+
+.side .white:hover {
+    background-color: rgb(255, 251, 246);
+    color: black;
+}
+
+.plus:active {
+    color: #4285F4;
+}
+
+.plus_menu {
+    border: 0;
+}
+
+section {
+    position: relative;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#container{
+    padding: 1% 10% 1% 10%;
+    height: 2200px;
+}
+
+#container .left_cont {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#container .left_cont img{
+    width: 100%;
+    padding: 5px 5px 5px 0;
+}
+
+#container .right_cont {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+} 
+
+#container .right_cont .login {
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    background-color: rgb(199, 199, 199);
+}
+
+#container .right_cont .login .login_gtb{
+    padding: 20px 15px 20px 15px;
+    font-size: 14px;
+}
+
+#container .right_cont .login .login_gtb .login_btn{
+    position: relative;
+    color: black;
+    left: 0;
+    top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 50px;
+    display: block;
+    background-color: rgb(245, 243, 239) ;
+}
+
+#container .right_cont .login .login_gtb .login_btn:hover{
+    background-color: rgb(225, 223, 219) ;
+}
+
+#container .right_cont .login .login_gtb .login_left {
+    float: left;
+    text-align: left;
+
+}
+
+#container .right_cont .login .login_gtb .login_right {
+    float: right;
+    text-align: right;
+}
+
+#container .right_cont .mkt{
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    width: 90%;
+}
+
+#container .right_cont .mkt a {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+
+#container .right_cont .mkt a span{
+    position: relative;
+    bottom : 4px;
+    left: 0;
+}
+
+#container .right_cont .mkt img{
+    width: 100%;
+}
+
+#container .right_cont .mkt .trand:hover{
+    text-decoration: underline;
+}
+
+#container .right_cont .mkt .vrt1{
+    float: right;
+    padding: 0 3px 0 3px;
+    font-weight: 1000;
+}
+
+#container .right_cont .mkt .vrt2{
+    float: right;
+    padding: 0 3px 0 3px;
+    font-weight: 1000;
+}
+
+#container .right_cont .mkt .vrt3{
+    float: right;
+    padding: 0 3px 0 3px;
+    font-weight: 1000;
+}
+
+#container .right_cont .mkt .vrt1.act{
+    border-bottom: 3px solid #4285F4;
+    color: #4285F4;
+
+}
+
+#container .right_cont .mkt .vrt2.act{
+    border-bottom: 3px solid #4285F4;
+    color: #4285F4;
+
+}
+
+#container .right_cont .mkt .vrt3.act{
+    border-bottom: 3px solid #4285F4;
+    color: #4285F4;
+
+}
+
+#container .right_cont .mkt .shopping {
+    width: 100%;
+    margin: 5px 0 0 0;
+    border: 1px solid #777;
+}
+
+#container .right_cont .mkt .shp_name {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(245, 243, 239) ;
+    font-weight: 900;
+}
+
+.shp_list {
+    width: 100%;
+    height: 780px;
+    background-color: white ;
+}
+
+#container .right_cont .mkt .shp_list .shop_control{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#container .right_cont .mkt .shp_list .list_goods_wrap{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#container .right_cont .mkt .shp_list .list_goods_wrap .list_goods{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#container .right_cont .mkt .shp_list .list_goods_wrap .goods_item a{
+    font-size: 11px;
+    text-align: center;
+    padding: 0 2px 0 2px;
+    float: left;
+    width: 32.33%;
+    display: block;
+}
+#container .left_cont .headline {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 243, 239) ;
+}
+
+#container .left_cont .headline .head_left{
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#container .left_cont .headline .head_right{
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.wrap{
+    background-color: white;
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #777;
+}
+
+.wrap .box{
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 16.666%;
+    height: 70px;
+}
+
+.wrap .box .inner{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #777;
+}
+
+.wrap .box .inner .hoverEvt{
+    width: 100%;
+    height: 100%;
+    display: none;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+#container .left_cont .wrap .box .inner img{
+    position: relative;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+}
+
+#container .left_cont .wrap .box .inner.on{
+    background-color: rgb(219, 219, 219);
+}
+
+#container .left_cont .wrap .box .inner.on img{
+    display: none;
+}
+
+#container .left_cont .wrap .box .inner.on .hoverEvt > a{
+    margin: 8px 0 8px 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 49%;
+    height: 60%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 7px;
+}
+
+.feed {
+    margin: 5px 0 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #777;
+}
+.feed .feed_menu{
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: rgb(219, 219, 219); ;
+}
+
+.feed .feed_menu > li > a {
+    text-align: center;
+    float: left;
+    font-weight: 600;
+    width: 12%;
+    height: 100%;
+    line-height: 50px;
+    display: inline-block;
+}
+.feed .video{
+    padding: 5px;
+    border: none;
+    width: 32%;
+    height: 200px;
+}
